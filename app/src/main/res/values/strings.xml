@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Task Manager</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="list_fragment_label">Tasks</string>
+    <string name="detail_fragment_label">Task Info</string>
+
+    <string name="groceries">Get groceries</string>
+    <string name="groceries_subtitle">Food in the fridge is running out. Need to resupply as soon as I can…</string>
+    <string name="groceries_details">
+        Some of the food in the fridge is running out. Need to resupply as soon as I can… So far what I need is\n
+        - Milk\n
+        - Eggs\n
+        - Bread\n
+        - Vegetables\n
+        - Ground Beef\n
+        Expiration dates should be within the next 3 months at the very LEAST, but the further ahead the better.
+    </string>
+
+    <string name="workout">Complete daily workout</string>
+    <string name="workout_subtitle">Gotta stay in shape!</string>
+    <string name="workout_details">
+        Usual routine:\n
+        - Warm up with some stretches for 5 minutes.\n
+        - 20 push-ups\n
+        - 20 squats\n
+        - 20 lunges\n
+        - Hour-long walk, 30-minute jog, or 45-minute cycling session\n
+        - End it off with 5 more minutes of stretching and a good meal\n
+    </string>
+
+    <string name="blogpost">Write a Blog post</string>
+    <string name="blogpost_subtitle">I\'ve been watching some extremely good shows lately. I should share my opinions on at least one of them…</string>
+    <string name="blogpost_details">
+        I\'ve been watching some extremely good shows lately. I should share my opinions on at least one of them.
+        I\'m mostly an anime watcher, but I guess it wouldn\'t hurt to smuggle in an indie-animated show for a change.
+        For the former, I\'d probably write about My Hero Academia, for the latter I\'d write about Murder Drones. Both of them
+        are 10/10s.
+        \n\n
+        Things to include in the blog post:\n
+        - Plot summary\n
+        - Animation quality and visual design\n
+        - Character discussions; who I like, who I don\'t like\n
+        - Soundtrack!!!\n
+        - Overall score out of 10\n
+    </string>
+
+    <string name="assignment">Finish programming assignment</string>
+    <string name="assignment_subtitle">I should really get this Operating Systems assignment done…</string>
+    <string name="assignment_details">
+        We\'re supposed to build a tiny Unix shell using C, but it\'s proving a lot more challenging than I thought it\'d be.
+        My implementation\'s batch mode does not seem to be working, and it seems to be an issue with the file reading itself,
+        especially at the end…
+        \n\n
+        UPDATE: After talking it out with my dad, he proposed an excellent idea. Instead of reading the file for a single line
+        and then parsing it to execute that line\'s commands before moving on to the next line, why don\'t I just read the entire
+        file and store each line in a massive array of character arrays? That way I can read the file once at the beginning of
+        runtime and then be done with it. That should take care of the batch mode bug. Just gotta get to coding it!
+    </string>
+
+    <string name="book">Read Chapter 14 of Harry Potter and the Goblet of Fire</string>
+    <string name="book_subtitle">I\'m not usually one for reading, but Harry Potter is great…</string>
+    <string name="book_details">
+        The plot thickens, and things are getting interesting. Mad-Eye Moody is an interesting character to say the least but
+        he\'s quickly becoming one of my favorites. That scene with Draco in chapter 13 was funny as hell.
+    </string>
+
+    <string name="trip">Plan a weekend trip</string>
+    <string name="trip_subtitle">College has been stressing me out lately. Better have a mini-vacation soon…</string>
+    <string name="trip_details">
+        I want to go somewhere fun this weekend to take my mind off all the nonstop schoolwork I\'ve been doing lately.
+        The question is where? I have a few ideas in mind, just gotta settle on one.\n
+        - The condo on the beach my family owns.\n
+        - A trip to Taboga Island\n
+        - Crashing at my friend\'s place
+    </string>
+
+    <string name="organize">Organize my computer</string>
+    <string name="organize_subtitle">Running out of space, need to clean up.</string>
+    <string name="organize_details">
+        1. Move all schoolwork and material from the previous year to cloud storage.\n
+        2. Uninstall any games I haven\'t played in a while.\n
+        3. Use my computer\'s storage check to see what are the largest files I have stored.\n
+        4. Delete the ones deemed unimportant.
+    </string>
+
+    <string name="course">Complete the next milestone in side programming course</string>
+    <string name="course_subtitle">I\'m taking a Java programming course on the side, need to continue…</string>
+    <string name="course_details">
+        I\'m taking a Java programming course on the side, need to continue… Having taken programming courses with
+        C++ and Python before, I really only have to learn the syntax, but it can still be a challenge with how cluttery
+        Java\'s syntax can be.
+    </string>
+
+    <string name="language">Practice Italian</string>
+    <string name="language_subtitle">Reinforce basic Italian and practice/learn more.</string>
+    <string name="language_details">
+        Get used to hearing the Italian language by watching a movie of my choice in its Italian dub, and also practice
+        the reading, writing, and pronunciation with tools like Duolingo.
+    </string>
+
+    <string name="help">Help a friend with college</string>
+    <string name="help_subtitle">I wonder how Connor is holding up with college…</string>
+    <string name="help_details">
+        Connor said he wanted to get back to college at some point and try coding again, so I\'d like to help him in any
+        way possible. After all, coding may be fun, but it\'s also very rigorous.
+    </string>
+
+    <string name="call">Call my mother</string>
+    <string name="call_subtitle">Call my mother and catch up, while also reassuring her.</string>
+    <string name="call_details">
+        Call my mother and catch up, while also reassuring her. She is out of work at about 7 or 8 P.M.,
+        so that is my cue to call her and ask how she has been. I should probably remind her of the upcoming
+        family dinner too.
+    </string>
+
+    <string name="placeholder_tasks_list_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices congue rutrum.</string>
+    <string name="placeholder_task_detail_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </string>
+
+    <string name="due_date_caption">Due Date: %1$s</string>
+    <string name="completed_caption">Complete!</string>
+
+    <string name="back_button">Back</string>
+</resources>
